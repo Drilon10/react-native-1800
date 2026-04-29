@@ -1,10 +1,20 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Button, TouchableOpacity } from 'react-native';
 
-const MenuScreen = () => {
+const MenuScreen = (props) => {
+    console.log(props);
     return(
         <View>
             <Text style={styles.text}>Welcome to Menu Screen</Text>
+            <Button title="Go to List Screen" 
+            onPress={() => props.navigation.navigate('List')}>
+            </Button>
+            <TouchableOpacity
+                style={styles.touchableBtn}
+                onPress={() => props.navigation.navigate('Challenge5')}
+                >
+                <Text style={styles.btnTxt}>Go to Students Screen</Text>
+            </TouchableOpacity>
         </View>
     );
 };
@@ -14,6 +24,20 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontSize: 20,
         marginVerical: 20
+    },
+    touchableBtn: {
+       backgroundColor: "darkred",
+       marginVertical: 15,
+       paddingVertical: 20,
+       borderRadius: 6,
+       marginHorizontal: 20 
+    },
+
+    btnTxt: {
+        color: "white",
+        textAlign: "center",
+        fontSize: 25,
+        fontWeight: "bold"
     }
 });
 

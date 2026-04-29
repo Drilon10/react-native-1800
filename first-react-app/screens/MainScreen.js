@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
+import { Button } from "react-native-web";
 
 const MainScreen = () => {
     return (
