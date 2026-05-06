@@ -6,9 +6,24 @@ const StudentScreen = () => {
     return (
         <View>
             <Text style={styles.text}>Students Screen</Text>
-            <StudentDetails name="Ellie"></StudentDetails>
-            <StudentDetails name="Naron"></StudentDetails>
-            <StudentDetails name="Baron"></StudentDetails>
+            <StudentDetails 
+                name="Loran Iseni"
+                img={require('../assets/loran.jpeg')}
+                desc="Professional Football Player from Gorno Sedlarce"
+            >
+            </StudentDetails>
+            <StudentDetails 
+                name="Ajan Memeti"
+                img={require('../assets/ajan.jpeg')}
+                desc="Professional Skier from Pallatica"
+            >
+            </StudentDetails>
+            <StudentDetails 
+                name="Memet Aliji"
+                img={require('../assets/memet.jpeg')}
+                desc="Professional Programmer from Zhelini"
+            >
+            </StudentDetails>
         </View>
     )
 }
