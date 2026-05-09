@@ -15,6 +15,13 @@ const MenuScreen = (props) => {
                 >
                 <Text style={styles.btnTxt}>Go to Students Screen</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity
+                style={styles.touchableBtn}
+                onPress={() => props.navigation.navigate('Profile')}
+                >
+                <Text style={styles.btnTxt}>Go to Profile Screen</Text>
+            </TouchableOpacity>
         </View>
     );
 };
