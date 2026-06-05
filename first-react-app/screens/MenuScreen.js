@@ -42,6 +42,12 @@ const MenuScreen = (props) => {
                 >
                 <Text style={styles.btnTxt}>Go to Countries Screen</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+                style={styles.touchableBtn}
+                onPress={() => props.navigation.navigate('Products')}
+                >
+                <Text style={styles.btnTxt}>Go to Products Screen</Text>
+            </TouchableOpacity>
         </View>
     );
 };

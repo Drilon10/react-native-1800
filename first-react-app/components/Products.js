@@ -1,13 +1,14 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 
-const Product = (props) => {
+const Products = (props) => {
     return(
         <View style={styles.cardContainer}>
             <Image 
-                source={{uri: `${props.img}`}}
+                source={{uri: props.img}}
                 style={styles.img}
-            ></Image>
+                resizeMode="contain"
+            />
             <View style={styles.cardDesc}>
                 <Text>{props.name}</Text>
                 <Text>{props.desc}</Text>
@@ -27,7 +28,7 @@ const styles = StyleSheet.create({
         borderRadius: 10
     },
     img: {
-        width: 750,
+        width: '100%',
         height: 180,
         borderTopLeftRadius: 10,
         borderTopRightRadius: 10
@@ -39,4 +40,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Product;
+export default Products;

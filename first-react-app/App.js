@@ -14,6 +14,7 @@ import ProfileScreen from './screens/ProfileScreen';
 import BoxScreen from './screens/BoxScreen';
 import PostsScreen from './screens/PostsScreen';
 import CountriesScreen from './screens/CountriesScreen';
+import ProductsScreen from './screens/ProductsScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -39,6 +40,7 @@ export default function App() {
         <Stack.Screen name="Box" component={BoxScreen} />
         <Stack.Screen name="Posts" component={PostsScreen} />
         <Stack.Screen name="Countries" component={CountriesScreen} />
+        <Stack.Screen name="Products" component={ProductsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
