@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 14",
+        "category": "phone",
+        "price": "$400",
+        "stock": "Yes",
+        "image": "https://mobelix.com.mk/storage/app/uploads/public/65b/784/835/thumb_5261_800_800_0_0_crop.png",
+        "description": "The iPhone 14 is a reliable and durable smartphone featuring a vibrant 6.1-inch Super Retina XDR OLED display, a powerful A15 Bionic chip, and a robust dual-camera system"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 15",
+        "category": "phone",
+        "price": "$600",
+        "stock": "Yes",
+        "image": "https://mobelix.com.mk/storage/app/uploads/public/650/c09/f3d/thumb_4997_800_800_0_0_crop.png",
+        "description": "The iPhone 15 is a reliable and durable smartphone featuring a vibrant 6.1-inch Super Retina XDR OLED display, a powerful A15 Bionic chip, and a robust dual-camera system"
+    },
+
+    {
+        "id": 3,
+        "name": "iPhone 16",
+        "category": "phone",
+        "price": "$750",
+        "stock": "Yes",
+        "image": "https://istyle.mk/cdn/shop/files/IMG-14772677_m_jpg_0_9f7a039b-aaa2-4c7d-ac49-4521738062df.jpg?v=1758132190",
+        "description": "The iPhone 16 is a reliable and durable smartphone featuring a vibrant 6.1-inch Super Retina XDR OLED display, a powerful A15 Bionic chip, and a robust dual-camera system"
+    },
+    {
+        "id": 3,
+        "name": "iPhone 17",
+        "category": "phone",
+        "price": "$950",
+        "stock": "Yes",
+        "image": "https://istyle.mk/cdn/shop/files/IMG-18066212_m_jpeg_1.jpg?v=1758153037",
+        "description": "The iPhone 17 is a reliable and durable smartphone featuring a vibrant 6.1-inch Super Retina XDR OLED display, a powerful A15 Bionic chip, and a robust dual-camera system"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Cappadocia",
+        "country": "Turkiye",
+        "desc": "Cappadocia is a region in central Turkiye"
+    },
+    {
+        "id": 2,
+        "name": "Vienna",
+        "country": "Austria",
+        "desc": "Vienna is a region in central Austria"
+    },
+    {
+        "id": 3,
+        "name": "Tetova",
+        "country": "North Macedonia",
+        "desc": "Tetova is the most beautiful city in Balkan"
+    }
+]
